@@ -1,0 +1,906 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E9EFEC;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Nav Section */
+
+nav {
+    background-color: #626F47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    z-index: 10;
+}
+
+
+nav .logo-nav a{
+    margin-left: 5vw;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+nav .logo-nav a:hover {
+    cursor: pointer;
+    color: #a9a9a9 ;
+}
+
+
+nav ul li {
+
+    display: inline;
+    margin: 1.5vw;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.2vh;
+}
+
+nav ul li a:hover{
+    color: #a9a9a9 ;
+}
+
+.btn-contactus {
+    background-color: #1A1A19;
+    color: white;
+    border: none;
+
+    margin-right: 5vw;
+    padding: 1.5vh;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.btn-contactus:hover{
+    background-color: #557C56;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* Home Section */
+
+/* Landing Page Section */
+
+.landing-page {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   margin-top: 7vh;
+   justify-content: center;
+    box-sizing: border-box;
+}
+
+.landing-page .hero-landing{
+   width: 100%;
+   max-height: 100%;
+   background-size: contain;
+   z-index: -1;
+}
+
+.landing-page h2{
+    position: absolute;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 6vh;
+    margin-top: -20vh;
+    z-index: 1;
+}
+
+.landing-page button{
+    background-color: black;
+    width: 11vw;
+    height: 5vh;
+    position: absolute;
+    margin-top:-10vh ;
+    z-index: 1;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 2.2vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing-page button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.landing-page button:hover{
+    background-color: #179b00;
+    color: black;
+    transition: 0.5s;
+}
+/* end of landing page */
+
+
+
+/* section 1 Start */
+.section1 {
+    align-items: end;
+    margin-top: 115vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+
+}
+
+.hero-left{
+    width: 60%;
+    height: 90%;
+}
+
+.hero-left img {
+  max-width: 100%;
+  max-height: 100%;
+ background-size: contain;
+}
+
+.content1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content1 h1{
+    font-size: 6vh;
+    margin-top: -5vh;
+
+}
+
+.content1 h1 span{
+    color: #47663B;
+    font-weight: bold;
+}
+
+.content1{
+    font-size: 2.4vh;
+    margin-left: 1.5vh;
+}
+
+.content1 button{
+    background-color: #47663B;
+    color: white;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 2.5vh;
+    width: 20vw;
+    margin-top: 5vh;
+
+}
+
+.content1 button i{
+    margin-right: 0.8vw;
+    margin-left: 0.5vw;
+}
+
+.content1 button i span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content1 button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* End of section 1 */
+
+
+/* Section 2 Start */
+.section2{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: 180vh;
+    height: 40vh;
+    background-color: #47663B;
+    z-index: -1;
+    justify-content:center;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 15vw;
+}
+
+.content-icon{
+    flex-direction: row;
+    align-items: center;
+    width: 10vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-icon span{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 4vh;
+}
+
+.content-icon i{
+    color: white;
+    font-size: 12vh;
+}
+
+/* Section 2 End */
+
+
+/* Section 3 Start */
+.section3-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.section3{
+    width: 100%;
+    height: 200vh;
+    margin-top: 225vh;
+    position: absolute;
+}
+
+
+.section3 span{
+    color:#47663B ;
+}
+
+.flex-container{
+    position: absolute;
+    margin-top: 235vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8vw;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.flex-item{
+    margin-top: 5vh;
+    flex-direction: column;
+    max-width: 20%;
+    height: 50vh;
+    background-color: #E9EFEC;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-flex{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item img{
+    max-width: 50%;
+    object-fit: cover;
+}
+
+
+.subtitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.flex-item:hover{
+    transform: scale(1);
+    transition: 1s;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.2);
+}
+
+/* section 3 End */
+
+
+/* Section 4 Start */
+.section4{
+    display: flex;
+    position:absolute;
+    background-color:#47663B ;
+    margin-top: 370vh;
+    width: 90%;
+    height: 25vh;
+}
+
+.section4-content{
+    color: white;
+    margin-left: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.produk{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+}
+
+.produk a{
+    color: white;
+    text-decoration: none;
+}
+
+.produk:hover{
+    background-color: #557C56;
+    cursor: pointer;
+}
+
+/* section 4 End */
+
+/* Section 5 Start */
+.section5{
+    background-color: E9EFEC;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: -1;
+    margin-top: 12vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section5 span{
+    color: #47663B;
+}
+
+.section5 p{
+    text-align: justify;
+}
+
+/* Home Section End */
+
+.main-about{
+    position: absolute;
+    margin-top: 10vh;
+    justify-content: center;
+    width: 1-0%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+.main-about h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.main-about h1 span{
+    color: #47663B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-page-about{
+    max-width: 100%;
+    height: 10%;
+    color: white;
+    background-color: #47663B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.landing-page-about .description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 0 2vw;
+}
+
+/* End of Landing page */
+
+
+/* Section 2  */
+.main-about .section2{
+    position: absolute;
+    margin-top: 8vh;
+    background-color: #E9EFEC;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+
+.visi-misi{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ width: 100%;
+ max-width: 50%;
+ display: flex;
+ flex-direction: column;
+ margin-left: 1vw;
+
+}
+
+.visi-misi .container{
+    background-color: #f3f3f3;
+    width: 100%;
+    border: 1px solid #cbcbcb;
+    border-radius: 10px;
+    padding: 0 2vw;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin-left: 50vw;
+    margin-top: 6vw;
+
+}
+
+.hero-right img{
+    max-width: 90%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Section 2 End */
+
+/* Section 3 */
+
+/* Circle */
+.circle-container{
+    width: 10vw;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
+}
+.circle1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    background-color: rgb(67, 254, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.circle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    background-color: rgb(176, 87, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.circle3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    background-color: rgb(239, 98, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.circle4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    background-color: rgb(23, 163, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.circle5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    background-color: rgb(233, 55, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.circle6{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    background-color: rgb(227, 53, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.circle7{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    background-color: rgb(208, 254, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.circle8{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    background-color: rgb(18, 219, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.circle9{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    background-color: rgb(104, 247, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.circle-description{
+    max-width: 100%;
+    padding-top: 6.5vh;
+    margin-left: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1vh;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+}
+
+.section3-container .circle-description .content{
+    justify-content: baseline;
+
+}
+
+/* Section 3 Circle Content End */
+
+.main-about .section3{
+    width: 100%;
+    margin-top: 5vh;
+    color: rgb(58, 56, 56);
+    box-sizing: border-box;
+}
+
+.section3-container{
+    display: flex;
+    margin: 1vw;
+    box-sizing: border-box;
+}
+
+/* Section 3 End */
+
+/* About Section End */
+/* -------------------------------------------------------------------- */
+
+/* Service Section */
+.main-service{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: -1;
+
+}
+
+.main-service .service-landing{
+   width: 100%;
+   height: 100% ;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   margin-top: 50vh;
+   justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.service-landing img{
+    width: 100%;
+    background-size: contain;
+    position: absolute;
+    object-fit: contain;
+    max-width: 100%;
+    z-index: -1 ;
+}
+
+.service-section2{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: 140vh;
+    align-items:flex-end;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-section2 .service-description{
+    text-wrap: wrap;
+    max-width: 40%;
+    text-align: justify;
+    color: black;
+    margin-left: 6vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon-section{
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 0.5vw;
+}
+.icon-section i{
+    color: black;
+}
+
+.icon-section h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-section2 img{
+    max-width: 25%;
+    object-fit: contain;
+    margin-right: 6vw;
+}
+/* service section 2 End*/
+
+/* Jasa Rakit Section */
+.jasa-rakit-section{
+    position: absolute;
+    margin-top: 225vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left:7vw ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jasa-rakit-description{
+    width: 100%;
+    height: auto;
+    text-wrap: wrap;
+    padding-left: 3vw;
+    margin-top: 15vh;
+    text-align: justify;
+    padding-right: 5vw;
+}
+
+
+.jasa-rakit-hero {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+
+.jasa-rakit-hero img{
+    max-width: 100%;
+    max-height: 85%;
+    object-fit: cover;
+}
+
+.jasa-rakit-description span{
+    font-weight: bold;
+}
+/* Jasa Rakit End */
+
+.jasa-bongkar-section{
+    position: absolute;
+    margin-top: 340vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+}
+
+.jasa-bongkar-description{
+    max-width: 50%;
+    text-align: justify;
+    text-wrap: wrap;
+}
+
+.jasa-bongkar-section span{
+    font-weight: bold;
+
+}
+
+.jasa-bongkar-hero{
+    margin-top: 8vh;
+    max-width: 40%;
+    height: 80%;
+    background-size: cover;
+}
+
+.jasa-bongkar-hero img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Section Home */
+.footer {
+    background-color:#626F47;
+    position: absolute;
+    margin-top: 460vh;
+    width: 100%;
+   height: 40vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header-footer{
+   width: 80%;
+   border-top: 1px;
+   border-top-color: white;
+   border-top-style: solid;
+   align-items: center;
+}
+
+.header-footer h2{
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.icon a,i{
+    color: white;
+    font-size: 1.2vw;
+}
+
+.footer-content{
+    max-width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1vw;
+}
+.footer-content ul {
+    margin-left: -2vw;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+.footer-content ul li{
+    list-style-type: none;
+}
+
+.footer-content ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-footer .icon a i:hover{
+    color: #a9a9a9
+}
+
+.footer-content ul li a:hover{
+    color: #a9a9a9
+}
+
+/* footer About */
+.footer-about{
+    width: 100%;
+    height: 45vh;
+    background-color:#626F47;
+    position: static;
+    width: 100%;
+    margin-top: 200vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Footer Services */
+.footer-services{
+    width: 100%;
+    height: 45vh;
+    background-color:#626F47;
+    position: static;
+    width: 100%;
+    margin-top: 450vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+/* Footer End */
+
+
+
+
+
